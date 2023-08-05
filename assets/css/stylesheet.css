@@ -1,0 +1,100 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+header {
+    color: white;
+    background-color: blue;
+    background-image: linear-gradient(to right, #668EC8, #3f649c, #54359d, #391887, #290d6a);
+    padding: 10px;
+    text-align: center;
+}
+
+h2,
+input,
+button {
+    display: block;
+    margin-left: 10px;
+}
+
+input {
+    padding: 5px;
+    padding-right: 80px;
+    margin-top: 10px;
+}
+
+button {
+    color: white;
+    background-color: #6194df;
+    text-align: center;
+    border-radius: 0.3rem;
+    border: transparent;
+    outline: none;
+    padding: 8px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#added-city {
+    color: black;
+    background-color: rgb(190, 190, 190);
+}
+
+#selected {
+    width: 845px;
+    height: 150px;
+    outline-style: solid;
+    border-color: black;
+    margin-left: 270px;
+    top: 12%;
+    position: absolute;
+}
+
+#chosen-city {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#chosen-city p {
+    margin-top: 10px;
+}
+
+#forecast {
+    margin-top: 50px;
+    margin-left: 270px;
+}
+
+#forecast p {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#forecast h5 {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#day-1,
+#day-2,
+#day-3,
+#day-4,
+#day-5 {
+    color: white;
+    background-color: rgb(50, 61, 81);
+    width: 150px;
+    height: 170px;
+    outline: solid;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#day-2,
+#day-3,
+#day-4,
+#day-5 {
+    margin-left: 20px;
+}
