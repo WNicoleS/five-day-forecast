@@ -53,6 +53,12 @@ button {
     position: absolute;
 }
 
+#city-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
 #chosen-city {
     margin-left: 10px;
     margin-top: 10px;
@@ -84,7 +90,7 @@ button {
 #day-4,
 #day-5 {
     color: white;
-    background-color: rgb(50, 61, 81);
+    background-color: rgb(46, 58, 81);
     width: 150px;
     height: 170px;
     outline: solid;
@@ -97,4 +103,15 @@ button {
 #day-4,
 #day-5 {
     margin-left: 20px;
+}
+
+#date1-icon,
+#date2-icon,
+#date3-icon,
+#date4-icon,
+#date5-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
