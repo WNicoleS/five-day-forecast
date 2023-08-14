@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/dayjs"></script>
-    <link rel="stylesheet" type="text/css" href="./assets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/stylesheet.css">
 </head>
 
 <body>
@@ -20,14 +20,16 @@
                 <input type="text" name="search-box" id="location" placeholder="San Diego">
                 <button id="searchBtn" class="submit">Search</button>
             </form>
+            <hr>
             <span id="cities"></span>
         </div>
     </section>
 
     <section id="selected">
         <div id="chosen-city">
-            <h3><span id="city"></span>(<span id="date"></span>)
-            <span id="city-icon">hey</span></h3>
+            <h3><span id="city"></span> (<span id="date"></span>)
+                <image id="city-icon"></image>
+            </h3>
 
             <p>
                 Temp: <span id="temp"></span> °F
@@ -45,35 +47,35 @@
         <h4>5-Day Forecast:</h4>
         <div id="day-1">
             <h5><span id="date1"></span></h5>
-            <div id="date1-icon"></div>
+            <image id="date1-icon"></image>
             <p>Temp: <span id="day1-temp"></span> °F</p> 
             <p>Wind: <span id="day1-wind"></span> MPH</p>
             <p>Humidity: <span id="day1-humid"></span> %</p>
         </div>
         <div id="day-2">
             <h5><span id="date2"></span></h5>
-            <div id="date1-icon"></div>
+            <image id="date2-icon"></image>
             <p>Temp: <span id="day2-temp"></span> °F</p>
             <p>Wind: <span id="day2-wind"></span> MPH</p>
             <p>Humidity: <span id="day2-humid"></span> %</p>
         </div>
         <div id="day-3">
             <h5><span id="date3"></span></h5>
-            <div id="date3-icon"></div>
+            <image id="date3-icon"></image>
             <p>Temp: <span id="day3-temp"></span> °F</p>
             <p>Wind: <span id="day3-wind"></span> MPH</p>
             <p>Humidity: <span id="day3-humid"></span> %</p>
         </div>
         <div id="day-4">
             <h5><span id="date4"></span></h5>
-            <div id="date4-icon"></div>
+            <image id="date4-icon"></image>
             <p>Temp: <span id="day4-temp"></span> °F</p>
             <p>Wind: <span id="day4-wind"></span> MPH</p>
             <p>Humidity: <span id="day4-humid"></span> %</p>
         </div>
         <div id="day-5">
             <h5><span id="date5"></span></h5>
-            <div id="date5-icon"></div>
+            <image id="date5-icon"></image>
             <p>Temp: <span id="day5-temp"></span> °F</p>
             <p>Wind: <span id="day5-wind"></span> MPH</p>
             <p>Humidity: <span id="day5-humid"></span> %</p>
@@ -82,6 +84,6 @@
 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="./assets/script.js"></script>
+    <script src="./assets/script/script.js"></script>
 </body>
 </html>
