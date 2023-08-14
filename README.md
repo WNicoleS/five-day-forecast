@@ -19,6 +19,8 @@ Not necessary
 
 Type in the city of the weather you want to see, then click the search button. The weather of the current day will appear for the city and the weather for the next five days will appear in the '5-Day Forecast' section.
 
+![image of five-day-forecast](weather dashboard.png "weather dashboard")
+
 
 ## Credits
 
