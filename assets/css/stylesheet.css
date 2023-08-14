@@ -24,6 +24,10 @@ input {
     margin-top: 10px;
 }
 
+#look-up {
+    position: absolute;
+}
+
 button {
     color: white;
     background-color: #6194df;
@@ -32,15 +36,15 @@ button {
     border: transparent;
     outline: none;
     padding: 8px;
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 240px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-#added-city {
+#addedCity {
     color: black;
     background-color: rgb(190, 190, 190);
+    display: block;
 }
 
 #selected {
@@ -69,7 +73,7 @@ button {
 }
 
 #forecast {
-    margin-top: 50px;
+    margin-top: 170px;
     margin-left: 270px;
 }
 
