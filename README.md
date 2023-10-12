@@ -1,5 +1,7 @@
 # five-day-forecast
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 This application shows the weather of the current date and next five days to come.
@@ -12,7 +14,7 @@ This application shows the weather of the current date and next five days to com
 - [Credits](#credits)
 - [License](#license)
 
-Technologies Used
+## Technologies Used
 
 ## Installation
 
