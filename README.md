@@ -6,10 +6,13 @@ This application shows the weather of the current date and next five days to com
 
 ## Table of Contents
 
+- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+
+Technologies Used
 
 ## Installation
 
