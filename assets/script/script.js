@@ -38,7 +38,6 @@ var dateFive = document.querySelector("#date5-icon");
 var search = document.querySelector("#searchBtn");
 var input = document.querySelector("#location");
 var citiesListEl = $("#cities");
-
  
 //Refers to selected city for current weather
 var citySpan = document.querySelector("#city");
@@ -74,6 +73,7 @@ search.addEventListener("click", function(event) {
         localStorage.setItem("citiesListEl", (citiesListEl[0].innerHTML));
         saveCity();
     }
+
 
     //URL for weather API
     var weatherURL = `http://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=${apiKey}&units=imperial`;
@@ -119,7 +119,12 @@ search.addEventListener("click", function(event) {
     });
 });
 
+//Allows previous cities to be searched again when clicked
+citiesListEl[0].addEventListener("click", function() {
+    console.log(addedCity.length);
+});
 
+//class is days
 //Gets the date for the current day and the next five days
 var currentDate = dayjs().format("MM/DD/YYYY");
 document.getElementById("date").textContent = currentDate;
