@@ -55,7 +55,7 @@ function saveCity() {
 }
 
 
-//Data for forecast appears a city is types in and the search button is clicked
+//Data for forecast appears when a city is typed in and the search button is clicked
 search.addEventListener("click", function(event) {
     event.preventDefault();
 
