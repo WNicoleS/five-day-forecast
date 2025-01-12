@@ -72,18 +72,18 @@ button {
     margin-top: 10px;
 }
 
-#forecast {
+.forecast {
     margin-top: 170px;
     margin-left: 270px;
 }
 
-#forecast p {
+.forecast p {
     font-size: 14px;
     margin-left: 5px;
     margin-bottom: 10px;
 }
 
-#forecast h5 {
+.forecast h5 {
     font-size: 15px;
     margin-left: 5px;
 }

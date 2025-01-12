@@ -3,9 +3,10 @@ var apiKey = '5838aea9561da3a1bb1d6837bc606ec3';
 
 
 //Refers to "Temp:", "Wind:", and "Humidity:" in current weather and "5-Day Forecast"
-var windSpeed = document.querySelector("#wind");
-var temperature = document.querySelector("#temp");
-var humid = document.querySelector("#humid");
+
+//var windSpeed = document.querySelector("#wind");
+//var temperature = document.querySelector("#temp");
+//var humid = document.querySelector("#humid");
 var cityIcon = document.querySelector("#city-icon");
 
 var day1Temp = document.querySelector("#day1-temp");
