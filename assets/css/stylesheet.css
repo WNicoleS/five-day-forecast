@@ -41,7 +41,7 @@ button {
     margin-bottom: 10px;
 }
 
-#addedCity {
+.addedCity {
     color: black;
     background-color: rgb(190, 190, 190);
     display: block;
