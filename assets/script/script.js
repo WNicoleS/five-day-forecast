@@ -1,7 +1,7 @@
 //API Key
 var apiKey = '5838aea9561da3a1bb1d6837bc606ec3';
 
-localStorage.clear();
+//localStorage.clear();
 //Refers to "Temp:", "Wind:", and "Humidity:" in current weather and "5-Day Forecast"
 
 //var windSpeed = document.querySelector("#wind");
@@ -44,7 +44,6 @@ var citiesListEl = $("#cities");
 //Refers to selected city for current weather
 var citySpan = document.querySelector("#city");
 
-
 //Saves information to localStorage
 localStorage.getItem("saveCity");
 saveCity();
@@ -80,8 +79,7 @@ search.addEventListener("click", function(event) {
         localStorage.setItem("city", city);
         localStorage.setItem("citiesListEl", (citiesListEl[0].innerHTML));
         saveCity();
-
-    } else if (inputVal === '') {
+    } else {
         alert("Please Enter A City Name");
     }
 
